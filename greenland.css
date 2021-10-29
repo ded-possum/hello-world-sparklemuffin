@@ -1,0 +1,190 @@
+
+ .greenland-background {
+    background-image: url('imgs/frozen4.jpg');
+    position: absolute;
+      background-color: rgb(31, 41, 36);
+      
+    }
+    
+    .list {
+      border: 1px solid black;
+      padding: 1em;
+      margin: 0.3em;
+      background-image: url();
+      background: linear-gradient(to bottom, rgba(126, 102, 212, 0.8) 0%, rgba(168, 150, 150, 0.6) 100%);
+      border-radius: 100px;
+    }
+    
+    
+    .lists-group {
+      height: 30vh;
+      width: 95vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      padding: 100px;
+      margin: 1em auto;
+      background-image: url(gifs/pattern.gif);
+      font-family: "Tahoma";
+      border-radius: 100px;
+    }
+    
+    .country-tagline {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 35%;
+        padding: 12px;
+        background: linear-gradient(to bottom, rgba(146, 135, 187, 0.8) 0%, rgba(0,0,0,0.6) 100%);
+        background-color: rgb(79, 79, 250);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+    
+    .symbol {
+      width: 33%;
+    }
+    
+    .country-name {
+      border: 1px solid black;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      margin: auto;
+      width: 12%;
+      padding: 10px;
+      background: linear-gradient(to bottom, rgba(143, 126, 204, 0.8) 0%, rgba(0,0,0,0.6) 100%);
+      background-color: rgb(106, 106, 245);
+      font-style: oblique;
+      font-family: "Tahoma";
+    }
+    
+    .country-image {
+      /*display: flex;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+        height: auto;
+      */
+      display: block;
+      width: 50%;
+      border: 1px solid black;
+      margin: 1em auto;
+    }
+    
+    
+    #logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 1000px;
+    }
+    
+    .navbar {
+      border: 1px solid black;
+      padding: 1em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 1em;
+      margin-right: 1em;
+      margin: 1%;
+      background-color: rgb(226, 201, 162);
+      border-radius: 10px;
+    }
+    
+    .nav-links {
+      display: flex;
+      justify-content: space-between;
+      width: 40vw;
+    }
+    
+    .nav-item {
+      list-style-type: none;
+      border: 1px solid black;
+      background-color: black;
+      padding: 0.5em;
+      border-radius: 1000px;
+    }
+    
+    .nav-item a {
+      text-decoration: none;
+      color: white;
+      background-color: black;
+    }
+    
+    .copyright-info {
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 20px;
+      padding: 1px;
+      background-color: rgb(226, 201, 162);
+      border-radius: 1000px;
+    }
+    
+    .team {
+      width: 33%;
+    }
+    
+    .link {
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      width: 33%;
+    }
+    
+    
+    /* Ghost */
+    body {
+        background-color: #ff4814;
+      }
+      
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 7%;
+        margin-left: -64.5px;
+        margin-top: -85.5px;
+      }
+      
+      .ghost {
+        animation: float 3s ease-out infinite;
+      }
+      
+      @keyframes float {
+        50% {
+           transform: translate(0, 20px);
+        }
+      }
+      .shadowFrame {
+        width: 130px;
+        margin-top: 15px;
+      }
+      .shadow {
+        animation: shrink 3s ease-out infinite;
+        transform-origin: center center;
+        ellipse {
+          transform-origin: center center;
+        }
+      }
+      
+      @keyframes shrink {
+        0% {
+          width: 90%;
+          margin: 0 5%;
+        }
+        50% {
+          width: 60%;
+          margin: 0 18%;
+        }
+        100% {
+          width: 90%;
+          margin: 0 5%;
+        }
+      }
+    
+      
